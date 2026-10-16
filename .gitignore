@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# 项目：密钥与数据库永远不进 git
+.env
+*.db
+*.sqlite3
+
+# IDE / 系统
+.idea/
+.vscode/
+Thumbs.db
